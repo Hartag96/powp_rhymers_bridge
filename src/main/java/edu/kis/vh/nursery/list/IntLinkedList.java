@@ -77,7 +77,7 @@ public class IntLinkedList {
      *
      * @return value of last element of IntLikedList or -1 if it is empty
      */
-    protected int top() {
+    public int top() {
         if (isEmpty())
             return -1;
         return getLast().getValue();
@@ -88,7 +88,7 @@ public class IntLinkedList {
      *
      * @return vale of last element of IntLikedList or -1 if  it is empty
      */
-    protected int pop() {
+    public int pop() {
         if (isEmpty())
             return -1;
         int ret = getLast().getValue();
